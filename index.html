@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPLORE OUR SOLAR SYSTEM THROGH DATA</title>
+</head>
+<body>
+    <header class="header">
+        <h2> logo</h2>
+ </header>
+
+ <main class="main">
+    <section class="hero">
+        <h1>Explore Our Solar System Through Data</h1>
+<p> understand the planets not just by name but measureable facts.From size and mass to gravity and density,This page explores our solar system in a clear data driven way.</p>
+ <a href="index.html">Explore the data</a>
+ <a href="contact us.html"> contact us</a>
+    </section>
+<section class="video section"></section>
+<h2>How planetary data helps us understand the space</h2>
+<p> planetary science goes beyond images. comaring mass,diameter, gravity and density,we gain insight into how planet form,behave and interact within the solar system.</p>
+<video width="514" height="300"  controls autoplay muted loop poster="video/solar system video.mp4">
+ <source src="video/solar system video.mp4" title="solar system" type="video/mp4"> Your browser does not support the video tag.
+</video> 
+<section> 
+    <hr>
+    <section class="images section">
+        <h2>Visualizing the Differences Between Planets</h2>
+    </section>
+    <p> Each planet has unique physical characteristics.visual comparisons help us understand how terrestrial planets differ from gas giants and ice giants.</p>
+<figure> 
+    <img src="images/solar system.webp" height="300" width="300" alt="planets">
+    <figcaption> The eight planets of our solar system arranged from the sun</figcaption>
+</figure>
+</section>
+<hr>
+<section id =table class="table section">
+    <h2>Facts at a glance</h2>
+    <p>Below is a comparative tale of major planet in our solar system .The data highlights key physical properties used by astronomers and research worldwide</p>
+<caption>Data about the planets of our solar  system (planetary facts from NASA)</caption>
+
+<table border="2">
+    <thead>
+        <tr>
+            <th scope="col">Planet</th>
+            <th scope="col">Planet type</th>
+            <th scope="col">Diameter (km)</th>
+            <th scope="col">Mass (10^24 kg)</th>
+            <th scope="col">Gravity (m/s²)</th>
+            <th scope="col">Density (kg/m³)</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Terestrial</th>
+            <td>mercury</td>
+            <td>4,879</td>
+            <td>0.33</td>
+            <td>3.7</td>
+            <td>543</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Terestrial</th>
+            <td>venus</td>
+            <td>12,104</td>
+            <td>4.87</td>
+            <td>8.9</td>
+            <td>5243</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Terestrial</th>
+            <td>earth</td>
+            <td>12,742</td>
+            <td>5.97</td>
+            <td>9.8</td>
+            <td>5514</td>
+        </tr>
+        <tr>
+            <th scope="row">Gas Giant</th>
+            <td>jupiter</td>
+            <td>139,822</td>
+            <td>1,898</td>
+            <td>24.8</td>
+            <td>1326</td>
+        </tr>
+        <tr>
+            <th scope="row">Gas Giant</th>
+            <td>saturn</td>
+            <td>116,464</td>
+            <td>568</td>
+            <td>10.4</td>
+            <td>687</td>
+            </thead>
+        <tr>
+            <th scope="row">Ice Giant</th>
+            <td>uranus</td>
+            <td>50,724</td>
+            <td>86.8</td>
+            <td>8.7</td>
+            <td>1271</td>
+        </tr>
+        <tr>
+            <th scope="row">Ice Giant</th>
+            <td>neptune</td>
+            <td>49,244</td>
+            <td>102</td>
+            <td>11.2</td>
+            <td>1638</td>
+        </tr>
+        <tr>
+            <th scope="row">Dwarf Planet</th>
+            <td>pluto</td>
+            <td>2,377</td>
+            <td>0.013</td>
+            <td>0.6</td>
+        </tr>
+</table>
+</section id="contact">
+    <h2>HAVE QUESTIONS ABOUT PLANETARY SCIENCE?</h2>
+    <p>intrested in learning more about space,astronomy,or how planetary data is collected or analyzed? Reach out and we will get back to you!</p>
+</section>
+  <form action="submit_form.php" method="post">
+    <label for=" Full name"> Full Name:</label>
+    <input type="text" id=" Full name" placeholder=" Full name" maxlength="20" =" Full name" required><br><br>
+
+    <label for="email">EMAIL</label>
+    <input type="email" id="email" placeholder="Example@email.com" name="email" required><br><br>
+    <label for="phone number">phone number</label>
+    <input type="tel" id="tel" placeholder="phone number" maxlength="15" =" phone number" required><br><br>
+    <label for="city">City:</label> <br>
+    <select id="city" name="city" required>
+        <option value="">Select a city</option>
+        <option value="lagos"> lagos</option>
+        <option value="abuja">abuja</option>
+        <option value="port harcourt">port harcourt</option>
+        <option value="kano">kano</option>
+        <option value="ibadan">ibadan</option>
+        <option value="ogun">ogun</option>
+        <option value="enugu">enugu</option>
+        <option value="kaduna">kaduna</option>
+        <option value="benin">benin</option>
+        <option value="jos">jos</option>
+    </select><br><br>
+    <label for="message">Message:</label> <br>
+    <textarea id="message" placeholder="Your message" maxlength="100" name="message" rows="4" cols="50" required></textarea><br><br>
+    <label for="contact">Preferred Contact Method:</label> <br>
+    <input type="radio" id="email" name="contact" value="email" required>
+    <label for="email">Email</label><br>
+    <input type="radio" id="phone" name="contact" value="phone" required>
+    <label for="phone">Phone</label><br><br>
+    <label for="hear-about">How did you hear about us?</label>
+    <input type="checkbox" id="TS ACADEMY" name="hear-about" value="TS ACADEMY">
+    <label for="TS ACADEMY">TS ACADEMY</label><br>
+    <input type="checkbox" id="friend" name="hear-about" value="friend">
+    <label for="friend">Friend</label><br>
+    <input type="checkbox" id="others" name="hear-about" value="others">
+    <label for="others">Others</label><br><br>
+    <input type="submit" value="Submit">
+    <hr>
+  </form>
+    <footerclass="footer">
+        <h3>About</h3>
+        <ul>
+            <li><a href="#">planetary facts</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">world records</a></li>
+            <li><a href="#">Guides</a></li>
+        </ul>
+        <p>&copy; 2026 Aminah. Designed by Aminah. All rights reserved.</p>
+        <a href="#">privacy policy</a>
+        <a href="#">terms and conditions</a>
+    </footer>
+    <body>
+        
+    </body>
